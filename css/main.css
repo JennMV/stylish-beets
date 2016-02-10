@@ -1,23 +1,79 @@
 html {
-  background-color: ;
+  background-color: #c9b5ae;
+  line-height: normal;
+}
+
+h1 {
+  font-family: "PT Sans", sans-serif;
+  color: #3a1a29;
+}
+
+ol, nav {
+  font-family: "PT Sans", sans-serif;
+  list-style-type: none;
+  font-size: 1rem;
 }
 
 a {
-  color: #;
+  color: #7b2f3c;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #;
+  color: #632731;
+  font-weight: bold;
   text-decoration: underline;
 }
 
-figure figcaption {
-  font-style: italic;
-  text-align: center;
+h2 {
+  color: #462435
 }
 
-p {
+html body main figure figcaption {
+  font-style: italic;
+  text-align: center;
+  font-size: .9rem;
+}
+
+img {
+  width: 100%;
+}
+
+#days {
   font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#info {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+}
+
+#fact {
+  font-family: "PT Serif", serif;
+}
+
+#quote {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#web {
+  color: #ff6347;
+}
+
+.common {
+  list-style-type: lower-greek;
+}
+
+.tags {
+  list-style-type: circle;
+
+}
+
+dl, dt {
   font-weight: bold;
 }
 
@@ -28,4 +84,9 @@ p strong {
 blockquote {
   font-style: italic;
   font-size: 2rem;
+  text-align: center;
+}
+
+footer {
+  font-size: .5rem;
 }
